@@ -5,13 +5,14 @@ Gift Genie: saving relationships one gift recommendation at a time.
 Gift Genie recommends gift ideas based on a series of filters the user chooses between.  
 
 ## Problem statement
-Have you ever felt like your vocabulary is lacking in comparison to all of your friends? Have you ever felt insecure in a work environment with all the jargon being thrown around? Having a poor vocabulary can lead to stress, insecurity, and other negative feelings of inferiority. It can also cause stagnation in the work place and in social situation.
+Have you ever struggled to come up with a gift idea for your significant other? Has this in turn led to unnecessary stress and procrastination? Or have you ever realized you'd forgotten an event for which you'd need a gift until the last second? Pitfalls surrounding gift giving are endless.
 
 ## How will your project solve this problem?
-SIMPL solves these problems by providing an entertaining, rewarding way for users to increase their vocabulary, whether in general or for a specific field.
+Gift Genie solves these problems by providing gift recommendations based on factors such as length of relationship, type of relationship, preferred gender of recipient, and others.
 
 ## Map the user experience
-A user will download SIMPL on their smartphone or visit the website. They will then create an account and login. At this point the user can choose what kind of vocabulary words they would like to learn, whether a general category or an industry specific one. From there the user can select play, which will reveal unfinished words to the user related to the category they chose, along with a related hint to help solve the word. As they solve words, definitions will appear, and be saved to the user's account, so the user can go back and see the words they have learned. The user will also earn points from solving words, which they can use to customize their game in various themes and characters. As they solve words, the unfinished words will get progressively more obscure with less letters already filled in.
+A user will download Gift Genie on their Android smartphone. There will be a welcome screen with an enter button. The user will click enter and move to a new page displaying a series of drop-downs and radial buttons they can use to filter who the gift is for. Then the user will click the "Generate Gift Ideas" button on the bottom of the page. From there a new page will populate with gift ideas. The user can then select an idea to view more details about it, suggested purchasing locations (whether online or in person), and an approximate price range. If that gift is not to the user's liking, they can exit that view and select another gift to see its details. The user can also go back and change some of the filters if none of the ideas are to their liking.
+
 
 ## What technologies do you plan to use?
-This app would need Auth, Express.js, Node.js, PostgreSQL, and Knex.js to create the backend. The frontend would be written using React and React Native, along with JavaScript, HTML, and CSS.
+This app will use Kotlin, Android Studio, Node.js, Express.js, Knex.js, and PostgreSQL.
